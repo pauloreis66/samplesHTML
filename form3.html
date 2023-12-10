@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registo | Biblioteca</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Formulário -->
+      <form action="" id="formulario" method="POST">
+        <legend>
+          Registo de Biblioteca
+        </legend>
+        <div class="input-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" placeholder="Insira o seu nome" />
+        </div>
+        <div class="input-group">
+          <label for="apelido">Apelido:</label>
+          <input
+            type="text"
+            id="apelido"
+            placeholder="Insira o seu apelido"
+          />
+        </div>
+        <div class="input-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" placeholder="Insira o seu e-mail" />
+        </div>
+        <div class="input-group">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" placeholder="Insira a senha" />
+        </div>
+        <div class="colunas">
+          <div class="input-group">
+            <label for="telefone">Telefone:</label>
+            <input
+              type="text"
+              id="telefone"
+              placeholder="Insira o seu Telefone"
+            />
+          </div>
+          <div class="input-group">
+            <label for="cep">Código Postal:</label>
+            <input type="text" id="codpostal" placeholder="Insira o seu código postal" />
+          </div>
+        </div>
+        <div class="colunas">
+          <div class="input-group">
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo">
+              <option value="">informar...</option>
+              <option value="m">Masculino</option>
+              <option value="f">Feminino</option>
+              <option value="x">Não informar</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="newsletter">Newsletter</label>
+            <input type="checkbox" id="newsletter" />
+            <small>Desejo receber novidades deste site.</small>
+          </div>
+        </div>
+        <div class="footer">
+          <button type="button" class="botao">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
